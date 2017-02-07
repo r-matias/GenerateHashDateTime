@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Generate Hash Date time",
+  "description": "Generate a hash from the date time now.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
