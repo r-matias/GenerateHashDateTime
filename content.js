@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var checkPageButton = document.getElementById('generateTimeStamp');
+  var checkPageButton = document.getElementById('generateHashDateTimeNow');
   checkPageButton.addEventListener('click', function() {
 
-		var input = document.getElementById('inputTimeStamp');
+		var input = document.getElementById('inputDateTimeNow');
 		input.value = new Date().YYYYMMDDHHMMSS();
 		input.select();
 		
